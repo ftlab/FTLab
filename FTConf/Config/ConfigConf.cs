@@ -3,9 +3,9 @@ using System.Configuration;
 
 namespace FTConf.Config
 {
-    public class ConfigConfiguration : IConfiguration
+    public class ConfigConf : IConf
     {
-        public ConfigConfiguration(
+        public ConfigConf(
             Configuration config)
         {
 

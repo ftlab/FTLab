@@ -9,7 +9,7 @@ namespace FTConf
     /// <summary>
     /// Конфигурация
     /// </summary>
-    public interface IConfiguration
+    public interface IConf
     {
         /// <summary>
         /// конфигурация

@@ -60,13 +60,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conf.cs" />
-    <Compile Include="ConfigurationBuilder.cs" />
+    <Compile Include="ConfBuilder.cs" />
     <Compile Include="Config\ConfigAppSettings.cs" />
-    <Compile Include="Config\ConfigConfiguration.cs" />
+    <Compile Include="Config\ConfigConf.cs" />
     <Compile Include="Config\ConfigConnectionStringSettings.cs" />
     <Compile Include="IAppSettings.cs" />
-    <Compile Include="IConfigProfile.cs" />
-    <Compile Include="IConfiguration.cs" />
+    <Compile Include="IConf.cs" />
+    <Compile Include="IConfProfile.cs" />
     <Compile Include="IConnectionStringSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -4,18 +4,18 @@ namespace FTConf
 {
     public static class Conf
     {
-        private static IConfiguration _conf;
+        private static IConf _conf;
 
         static Conf()
         {
             Init(b =>
-                b.UseConfiguration(() => null)
+                b.UseConf(() => null)
             );
         }
 
-        public static void Init(Func<ConfigurationBuilder, ConfigurationBuilder> build)
+        public static void Init(Func<ConfBuilder, ConfBuilder> build)
         {
-            var builder = new ConfigurationBuilder();
+            var builder = new ConfBuilder();
             builder = build?.Invoke(builder);
             _conf = builder.Build();
         }

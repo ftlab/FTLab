@@ -10,12 +10,12 @@ namespace FTConf
         /// <summary>
         /// профайлер
         /// </summary>
-        IConfigProfile Profile { get; set; }
+        IConfProfile Profile { get; set; }
 
         /// <summary>
         /// Конфигурация
         /// </summary>
-        IConfiguration Configuration { get; }
+        IConf Configuration { get; }
 
         /// <summary>
         /// Имя группы

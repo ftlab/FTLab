@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace FTConf
 {
-    public class ConfigurationBuilder
+    public class ConfBuilder
     {
-        private IConfiguration _configuration;
+        private IConf _configuration;
 
-        public ConfigurationBuilder UseConfiguration(Func<IConfiguration> create)
+        public ConfBuilder UseConf(Func<IConf> create)
         {
             _configuration = create.Invoke();
             return this;
         }
 
-        public IConfiguration Build()
+        public IConf Build()
         {
             return _configuration;
         }
