@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace FTCli
 {
-    public class Class1
+    public interface IFormatter
     {
+        string Format(object value);
     }
 }
