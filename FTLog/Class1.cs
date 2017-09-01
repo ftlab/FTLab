@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FTConf
+namespace FTLog
 {
     public class Class1
     {
