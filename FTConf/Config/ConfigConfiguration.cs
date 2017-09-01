@@ -13,6 +13,6 @@ namespace FTConf.Config
 
         public string Name => throw new NotImplementedException();
 
-        public IAppSettings AppSettings => throw new NotImplementedException();
+        public IAppSettings Settings => throw new NotImplementedException();
     }
 }

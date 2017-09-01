@@ -19,6 +19,6 @@ namespace FTConf
         /// <summary>
         /// Настройки
         /// </summary>
-        IAppSettings AppSettings { get; }
+        IAppSettings Settings { get; }
     }
 }

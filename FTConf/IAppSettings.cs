@@ -2,10 +2,31 @@
 
 namespace FTConf
 {
+    /// <summary>
+    /// Настройки
+    /// </summary>
     public interface IAppSettings
     {
-        string this[string name] { get; set; }
+        /// <summary>
+        /// профайлер
+        /// </summary>
+        IConfigProfile Profile { get; set; }
 
-        IDictionary<string, IAppSettings> Groups { get; }
+        /// <summary>
+        /// Конфигурация
+        /// </summary>
+        IConfiguration Configuration { get; }
+
+        /// <summary>
+        /// Имя группы
+        /// </summary>
+        string Name { get; }
+
+        /// <summary>
+        /// Доступ к настройке
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
+        string this[string name] { get; set; }
     }
 }
