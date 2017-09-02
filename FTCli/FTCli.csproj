@@ -52,6 +52,7 @@
     <Compile Include="Standart\StandartFormatter.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="FTCli.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
