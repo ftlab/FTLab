@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace FTCli.Standart
 {
@@ -13,5 +14,8 @@ namespace FTCli.Standart
 
         public void WriteLine(object value) =>
             Console.WriteLine(_formatter?.Format(value) ?? value);
+
+        public string ReadLine() =>
+            Console.ReadLine();
     }
 }

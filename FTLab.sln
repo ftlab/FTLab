@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTCli", "FTCli\FTCli.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTMon", "FTMon\FTMon.csproj", "{AA002D18-B3E8-4133-8A43-14ABF2581BAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTTest", "FTTest\FTTest.csproj", "{9CC4EB33-AAC2-4395-BE7C-4207593554CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{AA002D18-B3E8-4133-8A43-14ABF2581BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA002D18-B3E8-4133-8A43-14ABF2581BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA002D18-B3E8-4133-8A43-14ABF2581BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CC4EB33-AAC2-4395-BE7C-4207593554CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CC4EB33-AAC2-4395-BE7C-4207593554CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CC4EB33-AAC2-4395-BE7C-4207593554CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CC4EB33-AAC2-4395-BE7C-4207593554CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,7 @@
-﻿using System;
+﻿using FTCli.Standart;
+using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace FTCli
 {
@@ -9,7 +12,8 @@ namespace FTCli
         static Cli()
         {
             Init(b =>
-                b.UseCli(() => null)
+                b.UseCli(() => new StandartCli())
+                .UseFormatter(new StandartFormatter())
             );
         }
 
@@ -20,6 +24,24 @@ namespace FTCli
                 new CliBuilder())
             ?? new CliBuilder())
             .Build();
+        }
+
+        public static void WriteLine(object value) =>
+            _cli.WriteLine(value);
+
+        public static string ReadLine() =>
+            _cli.ReadLine();
+
+        public static IEnumerable<string> ConsumeLines(
+            Func<string, bool> stop = null)
+        {
+            while (true)
+            {
+                var line = ReadLine();
+                if (stop?.Invoke(line) == true)
+                    yield break;
+                yield return line;
+            }
         }
     }
 }
