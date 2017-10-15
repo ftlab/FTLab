@@ -8,7 +8,7 @@ namespace FTTest
     {
         public static void Main(string[] args)
         {
-            Cli.WriteLine("Hello");
+            Cli.WriteLine("Hello, world");
             Cli.WriteLine(new { Hello = "World" });
             Cli.WriteLine(new Exception());
 

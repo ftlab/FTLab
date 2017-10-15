@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<package >
+<package>
   <metadata>
     <id>FTCli</id>
     <version>1.0.0</version>
@@ -8,7 +8,7 @@
     <owners>ulyanov.yuriy</owners>
     <licenseUrl/>
     <projectUrl>https://github.com/ftlab/FTLab</projectUrl>
-    <iconUrl/>
+    <iconUrl>https://avatars0.githubusercontent.com/u/24783816?v=4&s=200</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Fintech command-line interface</description>
     <releaseNotes>Fintech command-line interface</releaseNotes>
