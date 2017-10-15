@@ -2,6 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>Fintech</Company>
+    <Version>1.0.0</Version>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>Fintech FTBus</PackageTags>
+    <RepositoryType />
+    <RepositoryUrl></RepositoryUrl>
+    <Description>Fintech FTBus</Description>
+    <Authors>FTLab</Authors>
+    <PackageProjectUrl>https://github.com/ftlab/FTLab</PackageProjectUrl>
   </PropertyGroup>
 
 </Project>
