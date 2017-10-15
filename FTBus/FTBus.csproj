@@ -14,4 +14,8 @@
     <PackageProjectUrl>https://github.com/ftlab/FTLab</PackageProjectUrl>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard2.0\FTBus.xml</DocumentationFile>
+  </PropertyGroup>
+
 </Project>
