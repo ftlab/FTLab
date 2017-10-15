@@ -3,17 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTConf", "FTConf\FTConf.csproj", "{1EEA05E5-8A77-4284-A52D-A40E5574CFD8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTLog", "FTLog\FTLog.csproj", "{116972BE-9DA7-4C1E-ACEA-7E5601D11CEB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTCli", "FTCli\FTCli.csproj", "{3DB16344-05E2-4099-9A12-5199F7FFFAFE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTMon", "FTMon\FTMon.csproj", "{AA002D18-B3E8-4133-8A43-14ABF2581BAD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTTest", "FTTest\FTTest.csproj", "{9CC4EB33-AAC2-4395-BE7C-4207593554CB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTBus", "FTBus\FTBus.csproj", "{6806B5A4-5DBE-469B-93A7-E647B02A64C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FTBus", "FTBus\FTBus.csproj", "{6806B5A4-5DBE-469B-93A7-E647B02A64C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,26 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1EEA05E5-8A77-4284-A52D-A40E5574CFD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1EEA05E5-8A77-4284-A52D-A40E5574CFD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1EEA05E5-8A77-4284-A52D-A40E5574CFD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1EEA05E5-8A77-4284-A52D-A40E5574CFD8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{116972BE-9DA7-4C1E-ACEA-7E5601D11CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{116972BE-9DA7-4C1E-ACEA-7E5601D11CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{116972BE-9DA7-4C1E-ACEA-7E5601D11CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{116972BE-9DA7-4C1E-ACEA-7E5601D11CEB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3DB16344-05E2-4099-9A12-5199F7FFFAFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3DB16344-05E2-4099-9A12-5199F7FFFAFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3DB16344-05E2-4099-9A12-5199F7FFFAFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3DB16344-05E2-4099-9A12-5199F7FFFAFE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AA002D18-B3E8-4133-8A43-14ABF2581BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AA002D18-B3E8-4133-8A43-14ABF2581BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AA002D18-B3E8-4133-8A43-14ABF2581BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AA002D18-B3E8-4133-8A43-14ABF2581BAD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9CC4EB33-AAC2-4395-BE7C-4207593554CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9CC4EB33-AAC2-4395-BE7C-4207593554CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9CC4EB33-AAC2-4395-BE7C-4207593554CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9CC4EB33-AAC2-4395-BE7C-4207593554CB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6806B5A4-5DBE-469B-93A7-E647B02A64C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6806B5A4-5DBE-469B-93A7-E647B02A64C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6806B5A4-5DBE-469B-93A7-E647B02A64C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
