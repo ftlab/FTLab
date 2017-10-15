@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FTBus", "FTBus\FTBus.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FTConf", "FTConf\FTConf.csproj", "{11BCFDA5-946F-40DF-B132-B480A873DF12}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FTDb", "FTDb\FTDb.csproj", "{32691317-AB97-4FB9-961E-8B07867DA935}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{11BCFDA5-946F-40DF-B132-B480A873DF12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11BCFDA5-946F-40DF-B132-B480A873DF12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11BCFDA5-946F-40DF-B132-B480A873DF12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32691317-AB97-4FB9-961E-8B07867DA935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32691317-AB97-4FB9-961E-8B07867DA935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32691317-AB97-4FB9-961E-8B07867DA935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32691317-AB97-4FB9-961E-8B07867DA935}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
