@@ -10,7 +10,7 @@ namespace FTConf
         /// <summary>
         /// профайлер
         /// </summary>
-        IConfProfile Profile { get; set; }
+        IConfAudit Profile { get; set; }
 
         /// <summary>
         /// Конфигурация

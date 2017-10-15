@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FTConf
 {
-    public interface IConfProfile
+    public interface IConfAudit
     {
         void GetAppSetting(string confName, string name, string value);
 

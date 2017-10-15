@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FTBus", "FTBus\FTBus.csproj", "{6806B5A4-5DBE-469B-93A7-E647B02A64C7}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FTConf", "FTConf\FTConf.csproj", "{11BCFDA5-946F-40DF-B132-B480A873DF12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6806B5A4-5DBE-469B-93A7-E647B02A64C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6806B5A4-5DBE-469B-93A7-E647B02A64C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6806B5A4-5DBE-469B-93A7-E647B02A64C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11BCFDA5-946F-40DF-B132-B480A873DF12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11BCFDA5-946F-40DF-B132-B480A873DF12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11BCFDA5-946F-40DF-B132-B480A873DF12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11BCFDA5-946F-40DF-B132-B480A873DF12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

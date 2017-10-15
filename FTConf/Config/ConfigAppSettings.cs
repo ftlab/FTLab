@@ -16,7 +16,7 @@ namespace FTConf.Config
 
         public string this[string name] { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
-        public IConfProfile Profile { get; set; }
+        public IConfAudit Profile { get; set; }
 
         public IConf Configuration => _config;
 
