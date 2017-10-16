@@ -22,7 +22,6 @@ namespace FTDb
             , CommandBehavior behavior = CommandBehavior.Default)
         {
             if (cmd == null) throw new ArgumentNullException(nameof(cmd));
-
             using (var reader = cmd.ExecuteReader(behavior))
             {
                 while (reader.Read())
