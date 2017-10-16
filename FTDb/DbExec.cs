@@ -53,7 +53,12 @@ namespace FTDb
         /// </summary>
         public void Dispose()
         {
-
+            //var rows = CreateConnection()
+            //    .CreateCommand()
+            //    .SetCommandText("Hello")
+            //    .AddParameter(p => p.SetName("p1").SetValue("sdfsdf"))
+            //    .AddParameter(p => p.SetSize(122).SetName("sdf"))
+            //    .ExecuteReader(r => new { Name = r["Name"] });
         }
     }
 }

@@ -27,5 +27,13 @@ namespace FTDb
             cmd.Parameters.Add(parameter);
             return cmd;
         }
+
+        public static DbCommand SetCommandText(this DbCommand cmd
+            , string commandText)
+        {
+            if (cmd == null) throw new ArgumentNullException(nameof(cmd));
+            cmd.CommandText = commandText;
+            return cmd;
+        }
     }
 }
