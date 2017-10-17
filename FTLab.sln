@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FTConf", "FTConf\FTConf.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentDb", "FluentDb\FluentDb.csproj", "{ED22F3A6-3238-4FEB-8B27-869469398134}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentDb.Samples", "FluentDb.Samples\FluentDb.Samples.csproj", "{4135BBAD-1F83-4B29-8AAD-EECD66C14F30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{ED22F3A6-3238-4FEB-8B27-869469398134}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED22F3A6-3238-4FEB-8B27-869469398134}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED22F3A6-3238-4FEB-8B27-869469398134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4135BBAD-1F83-4B29-8AAD-EECD66C14F30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4135BBAD-1F83-4B29-8AAD-EECD66C14F30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4135BBAD-1F83-4B29-8AAD-EECD66C14F30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4135BBAD-1F83-4B29-8AAD-EECD66C14F30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

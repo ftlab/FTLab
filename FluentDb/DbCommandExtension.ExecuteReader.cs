@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Common;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace FTDb
+namespace FluentDb
 {
     /// <summary>
     /// методы расширяющие DbCommand
@@ -33,7 +31,7 @@ namespace FTDb
         /// Исполняет запрос и возвращает итератор с записями
         /// </summary>
         /// <param name="cmd"></param>
-        /// <param name="cmd"></param>
+        /// <param name="map"></param>
         /// <param name="behavior"></param>
         /// <returns></returns>
         public static IEnumerable<T> ExecuteReader<T>(this DbCommand cmd
