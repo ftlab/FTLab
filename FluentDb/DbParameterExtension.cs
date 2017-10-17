@@ -7,7 +7,7 @@ namespace FluentDb
     /// <summary>
     /// Методы расширяющие DbParameter
     /// </summary>
-    public static class DbParameterExtension
+    public static partial class DbParameterExtension
     {
         /// <summary>
         /// Установаить имя параметра
