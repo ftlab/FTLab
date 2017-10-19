@@ -1,4 +1,5 @@
-﻿using System.Data.Common;
+﻿using System;
+using System.Data.Common;
 
 namespace FluentDb
 {
@@ -8,15 +9,17 @@ namespace FluentDb
     public static partial class DbConnectionExtension
     {
         /// <summary>
-        /// Выполнить запрос
+        /// Выполнить команду
         /// </summary>
         /// <param name="con"></param>
-        /// <param name="cmd"></param>
+        /// <param name="init"></param>
         /// <returns></returns>
         public static DbConnection ExecuteNonQuery(this DbConnection con
-            , DbCommand cmd)
+            , Action<DbCommand> init)
         {
-            cmd.ExecuteNonQuery();
+            if (con == null) throw new ArgumentNullException(nameof(con));
+            using (var cmd = con.CreateCommand())
+                init?.Invoke(cmd);
             return con;
         }
 
@@ -29,8 +32,7 @@ namespace FluentDb
         public static DbConnection ExecuteNonQuery(this DbConnection con
             , string cmdText)
         {
-            using (var cmd = con.CreateCommand())
-                return con.ExecuteNonQuery(cmd.SetCommandText(cmdText));
+            return con.ExecuteNonQuery(cmd => cmd.SetCommandText(cmdText));
         }
     }
 }
