@@ -20,9 +20,7 @@ namespace FluentDb
             if (cmd == null) throw new ArgumentNullException(nameof(cmd));
             var result = await cmd.ExecuteScalarAsync();
             if (Convert.IsDBNull(result))
-            {
                 result = null;
-            }
             return (T)result;
         }
 
@@ -37,9 +35,7 @@ namespace FluentDb
             if (cmd == null) throw new ArgumentNullException(nameof(cmd));
             var result = cmd.ExecuteScalar();
             if (Convert.IsDBNull(result))
-            {
                 result = null;
-            }
             return (T)result;
         }
     }

@@ -21,10 +21,8 @@ namespace FluentDb
         {
             if (cmd == null) throw new ArgumentNullException(nameof(cmd));
             using (var reader = cmd.ExecuteReader(behavior))
-            {
                 while (reader.Read())
                     yield return reader;
-            }
         }
 
         /// <summary>
@@ -42,10 +40,8 @@ namespace FluentDb
             if (map == null) throw new ArgumentNullException(nameof(map));
 
             using (var reader = cmd.ExecuteReader(behavior))
-            {
                 while (reader.Read())
                     yield return map(reader);
-            }
         }
     }
 }
