@@ -21,8 +21,8 @@ namespace FluentDb
         {
             if (cmd == null) throw new ArgumentNullException(nameof(cmd));
             using (var reader = cmd.ExecuteReader(behavior))
-                while (reader.Read())
-                    yield return reader;
+                foreach (var record in reader.AsEnumerable())
+                    yield return record;
         }
 
         /// <summary>
@@ -33,15 +33,15 @@ namespace FluentDb
         /// <param name="behavior"></param>
         /// <returns></returns>
         public static IEnumerable<T> ExecuteReader<T>(this DbCommand cmd
-            , Func<IDataReader, T> map
+            , Func<IDataRecord, T> map
             , CommandBehavior behavior = CommandBehavior.Default)
         {
             if (cmd == null) throw new ArgumentNullException(nameof(cmd));
             if (map == null) throw new ArgumentNullException(nameof(map));
 
             using (var reader = cmd.ExecuteReader(behavior))
-                while (reader.Read())
-                    yield return map(reader);
+                foreach (IDataRecord record in reader.AsEnumerable())
+                    yield return map(record);
         }
     }
 }
